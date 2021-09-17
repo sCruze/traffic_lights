@@ -1,0 +1,9 @@
+@mixin flickering() {
+  @keyframes flickeringCircle {
+    100% {
+      opacity: 0.5;
+    }
+  }
+
+  animation: flickeringCircle 1s infinite;
+}
